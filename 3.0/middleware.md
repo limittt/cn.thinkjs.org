@@ -73,7 +73,7 @@ module.exports = (options, app) => {
 
 ### 配置格式
 
-为了方便管理和使用中间件，框架使用统一的配置文件来管理中间件，配置文件为 `src/config/middleware.js`（多模块项目配置文件为 `sr/common/config/middleware.js`）。
+为了方便管理和使用中间件，框架使用统一的配置文件来管理中间件，配置文件为 `src/config/middleware.js`（多模块项目配置文件为 `src/common/config/middleware.js`）。
 
 ```js
 const path = require('path')
